@@ -1,0 +1,170 @@
+****Firebase key****
+
+C4:88:C0:E8:1F:71:3C:83:E5:67:C2:65:A1:D0:C7:54:8F:F6:9F:23
+
+****Flutter version****
+
+C:\afd\flutter\bin>flutter --version
+Flutter 3.35.4 • channel stable • https://github.com/flutter/flutter.git
+Framework • revision d693b4b9db (5 months ago) • 2025-09-16 14:27:41 +0000
+Engine • hash feee8ee8fb8b975dd9990f86d3bda11e6e75faf3 (revision c298091351) (4 months ago) • 2025-09-15 14:04:24.000Z
+Tools • Dart 3.9.2 • DevTools 2.48.0
+
+
+****Project info****
+
+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
+database -> digital_society  
+
+tabales:
+
+1) events
+   id,title,description,event_date,image
+
+2) feedback
+   id,user_id,message,date
+
+3) maintenance
+   id,user_id,amount,status,due_date
+
+4) notices
+   id,title,message,created_at
+
+5) problems
+   id,user_id,problem,status,created_at
+
+6) staff
+   id,name,role,created_at
+
+7) staff_tasks
+   id,staff_id,task,status,created_at
+
+8) users
+   id,name,email,phone,flat_no,password,role,created_at,image
+
+9) visitors
+   id,name,flat_no,visit_date,status,created_at
+
+
+=> API <= 
+
+=> admin
+
+1) add_event=
+2) add_maintenance=
+3) add_notice=
+4) add_staff=
+5) add_visitor=
+6) approve_visitor=
+7) assign_task=
+8) delete_event=
+9) delete_maintenance=
+10) delete_notice=
+11) delete_staff=
+12) delete_user=
+13) get_feedback=
+14) get_problems=
+15) update_event=
+16) update_notice=
+17) update_problem_status=
+18) get_all_users=
+19) get_all_staff=
+20) get_all_visitors=
+21)  update_staff_task_status=
+22) update_maintenance=
+
+=> auth
+
+1) login
+2) register
+3) logout
+
+=> config
+
+1) db
+
+=> user
+
+1) add_problem=
+2) change_password =
+3) get_events=
+4) get_maintenance=
+5) get_notices=
+6) get_staff_tasks=
+7) get_visitors=
+8) send_feedback=
+9) update_profile=
+10) upload_profile_image=
+11) delete_problem=
+
+
+
+visitors
+
+https://prakrutitech.xyz/ankita/add_visitor.php
+https://prakrutitech.xyz/ankita/approve_visitor.php
+https://prakrutitech.xyz/ankita/get_all_visitors.php
+https://prakrutitech.xyz/ankita/get_visitors.php
+
+maintenance
+
+https://prakrutitech.xyz/ankita/add_maintenance.php
+https://prakrutitech.xyz/ankita/delete_maintenance.php
+https://prakrutitech.xyz/ankita/update_maintenance.php
+https://prakrutitech.xyz/ankita/get_maintenance.php
+
+event
+
+https://prakrutitech.xyz/ankita/add_event.php
+https://prakrutitech.xyz/ankita/delete_event.php
+https://prakrutitech.xyz/ankita/update_event.php
+https://prakrutitech.xyz/ankita/get_events.php
+
+notice
+
+https://prakrutitech.xyz/ankita/add_notice.php
+https://prakrutitech.xyz/ankita/delete_notice.php
+https://prakrutitech.xyz/ankita/update_notice.php
+https://prakrutitech.xyz/ankita/get_notices.php
+
+staff
+https://prakrutitech.xyz/ankita/add_staff.php
+https://prakrutitech.xyz/ankita/assign_task.php
+https://prakrutitech.xyz/ankita/delete_staff.php
+https://prakrutitech.xyz/ankita/get_all_staff.php
+https://prakrutitech.xyz/ankita/update_staff_task_status.php
+https://prakrutitech.xyz/ankita/get_staff_tasks.php
+
+problems
+
+https://prakrutitech.xyz/ankita/get_problems.php
+https://prakrutitech.xyz/ankita/update_problem_status.php
+
+
+user side
+
+https://prakrutitech.xyz/ankita/add_problem.php
+https://prakrutitech.xyz/ankita/change_password.php
+https://prakrutitech.xyz/ankita/get_events.php
+https://prakrutitech.xyz/ankita/get_maintenance.php
+https://prakrutitech.xyz/ankita/get_notices.php
+https://prakrutitech.xyz/ankita/get_staff_tasks.php
+https://prakrutitech.xyz/ankita/get_visitors.php
+https://prakrutitech.xyz/ankita/send_feedback.php
+https://prakrutitech.xyz/ankita/update_profile.php
+https://prakrutitech.xyz/ankita/delete_problem.php
+
+
+
+Full Flow
+
+👉 Dashboard open
+👉 API call → users load
+👉 Cards show
+👉 Users list show
+👉 Tap → details
+👉 Delete → refresh
+👉 Drawer → navigation
+👉 Bottom nav → screen switch
+
+
