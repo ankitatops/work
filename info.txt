@@ -12,8 +12,6 @@ Tools • Dart 3.9.2 • DevTools 2.48.0
 
 
 ****Project info****
-
-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
 database -> digital_society  
 
 tabales:
